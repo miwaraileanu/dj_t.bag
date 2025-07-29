@@ -22,7 +22,7 @@ export default function ProductsList() {
       </div>
 
       {/* Grid of Products */}
-      <div className="w-full max-w-7xl">
+      <div className="w-[80%]">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {products.slice(0, 4).map((product) => (
             <div key={product.id} className="group relative">
