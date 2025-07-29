@@ -7,7 +7,7 @@ export default function ProductsList() {
   return (
     <div
       id="products"
-      className="relative peralta-font w-full bg-white flex flex-col items-center py-12 px-4 md:px-8"
+      className="relative peralta-font w-full bg-white flex flex-col items-center py-[10%] md:py-[5%] px-4 md:px-8"
     >
       {/* Text block */}
       <div className="text-center max-w-[80%] mb-12">
@@ -22,7 +22,7 @@ export default function ProductsList() {
       </div>
 
       {/* Grid of Products */}
-      <div className="w-[80%]">
+      <div className="w-[80%] mt-10% md:mt-[5%]">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {products.slice(0, 4).map((product) => (
             <div key={product.id} className="group relative">
