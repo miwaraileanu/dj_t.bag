@@ -6,7 +6,7 @@ const Events = () => {
         <div id='events' className='relative peralta-font products w-full h-auto  bg-white flex flex-col justify-between items-center my-[10%] md:my-[5%]'>
 
             <div className="text flex flex-col justify-between items-center w-[80%] h-auto my-[3%]">
-                <h1 className=' uppercase mb-3 font-bold text-center text-[6vh] md:text-[8vh]'>Everything we can help you with</h1>
+                <h1 className=' uppercase mb-3 font-bold text-black text-center text-[6vh] md:text-[8vh]'>Everything we can help you with</h1>
             </div>
             {/* Event list */}
             <div className="container w-[80%] h-[80%]">
