@@ -10,7 +10,7 @@ export default function ProductsList() {
       className="relative peralta-font w-full bg-white flex flex-col items-center py-12 px-4 md:px-8"
     >
       {/* Text block */}
-      <div className="text-center max-w-4xl mb-12">
+      <div className="text-center max-w-[80%] mb-12">
         <h1 className="uppercase text-black font-bold text-[5vh] md:text-[6vh] mb-4">
           Powering Every Event
         </h1>
