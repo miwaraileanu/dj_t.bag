@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <SmoothScroll>
       <ScrollToTopButton />
-      <div className="peralta-font">
+      <div className="peralta-font bg-white">
         <Navbar />
         <Hero />
         <Products />
