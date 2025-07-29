@@ -71,9 +71,9 @@ const Hero = () => {
       >
         <div
           ref={textRef}
-          className="absolute top-[35%] md:top-[20%] md:w-[90%] md:h-[90%] lg:w-[80%] lg:h-[80%] flex flex-col justify-center items-center text-center px-6 py-[5%]"
+          className="absolute top-[35%] md:top-[20%] md:w-[90%] md:h-[90%] lg:w-[80%] lg:h-[80%] flex flex-col justify-center items-center text-center px-6 py-[3%]"
         >
-          <h1 className="text-[6vh] md:text-[8vh] lg:text-[13vh] text-white uppercase font-bold drop-shadow-lg">
+          <h1 className="text-[6vh] font-bold md:text-[8vh] lg:text-[13vh] text-white uppercase drop-shadow-lg">
             Sound Equipment Hire
           </h1>
           <h2 className="text-[3vh] md:text-[5vh] lg:text-[6vh] text-white uppercase font-bold drop-shadow-lg mb-6">

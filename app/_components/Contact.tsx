@@ -36,7 +36,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="relative isolate bg-white px-6 py-24 sm:py-32 lg:px-8 adlam-font">
+    <section id="contact" className="relative isolate bg-white px-6 py-[10%] md:py-[5%] sm:py-32 lg:px-8 adlam-font">
       {/* Background gradient blob */}
       <div
         aria-hidden="true"
@@ -55,7 +55,7 @@ export default function Contact() {
         <div className="grid grid-cols-1 gap-16 lg:grid-cols-2">
           {/* Left column – Contact Info */}
           <div className="flex flex-col justify-center">
-            <h2 className="text-3xl font-semibold text-gray-900 sm:text-4xl">Get in touch</h2>
+            <h2 className="text-[6vh] md:text-[8vh] font-bold text-black uppercase">Get in touch</h2>
             <p className="mt-4 text-lg text-gray-600">
               We’d love to hear from you. Reach out to us through any of the methods below, or fill out the form.
             </p>

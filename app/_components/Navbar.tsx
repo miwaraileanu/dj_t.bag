@@ -38,7 +38,7 @@ export default function Navbar() {
 
 
         {/* Center Logo */}
-        <div className="flex-1 flex justify-center ml-8">
+        <div className="flex-1 flex justify-center md:ml-6">
           <Image
             src="/logo.png"
             alt="Logo"

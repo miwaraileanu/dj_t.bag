@@ -9,7 +9,7 @@ export default function SmoothScroll({ children }: { children: React.ReactNode }
     const width = window.innerWidth
 
     // Set duration based on device type
-    let duration = 2.5 // default for desktop
+    let duration = 1.5 // default for desktop
 
     if (width < 640) {
       // Mobile
