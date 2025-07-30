@@ -13,7 +13,7 @@ export default function SmoothScroll({ children }: { children: React.ReactNode }
 
     if (width < 640) {
       // Mobile
-      duration = 4
+      duration = 1
     } else if (width >= 640 && width < 1024) {
       // Tablet
       duration = 3
