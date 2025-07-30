@@ -6,7 +6,7 @@ export const events = [
     imageSrc:
       '/events/event.png',
     imageAlt: "Events & Corporate",
-    description:'Whether you intend to amplify a presenter in a small meeting room for an intimate gathering or cover a ten-piece band inside a large ballroom, we have the speaker systems, the wireless microphones, the headsets and playback systems you need for your hire to ensure you are heard.',
+    description:'Whether you’re aiming to amplify a speaker in a cozy meeting room for an intimate gathering or power a ten‑piece band in a grand ballroom, our hire service offers premium speaker systems, wireless microphones, headsets, and playback solutions to ensure every word and note comes through crystal clear',
     link: ' Link in your own DJ Mixer / media Player / Streaming device'
   },
   {
@@ -16,7 +16,7 @@ export const events = [
     imageSrc:
       '/events/disco.png',
     imageAlt: "Disco / DJ",
-    description:'Complete systems for Weddings, parties, festivals and events, we supply everything for DJ’s including Pioneer DJ club standard equipment, Technics Decks, Monitor Systems, Lighting FX and Powerful top and sub Bass combo Systems with delivery and set up service available. We supply systems of all sizes with stunning Lighting and Effects to get any party going. Self operated systems are popular to…',
+    description:'Whether you’re hosting a wedding, party, festival or corporate event, we deliver turnkey DJ rigs—from Pioneer club‑standard decks and Technics turntables to monitor speakers, dynamic lighting effects and powerful top‑and‑sub‑bass combos—complete with delivery and professional setup. Our scalable systems, featuring stunning lights and FX, will ignite any dance floor, and our plug‑and‑play, self‑operated packages give solo DJs everything they need for a flawless performance.',
     link: ' Link in your own DJ Mixer / media Player / Streaming device'
   },{
     id: 3,
@@ -25,7 +25,7 @@ export const events = [
     imageSrc:
       '/events/rave.png',
     imageAlt: "Party Systems Hire",
-    description:'Hire a complete PA System with lighting that you can plug your phone or streaming device into (wired or Bluetooth connection) for that perfect background soundtrack to your party. Suitable for kids parties, Karaoke sessions and DJ’s. Lighting & FX can add to the party….',
+    description:'Elevate your event with our all‑in‑one PA system and dynamic lighting—just plug in your phone or streaming device via Bluetooth or cable for seamless background music. Perfect for kids’ parties, karaoke nights, or DJ sets, and boost the atmosphere even further with vibrant lights and FX.',
     link: ' Link in your own DJ Mixer / media Player / Streaming device'
   },{
     id: 4,
@@ -34,7 +34,7 @@ export const events = [
     imageSrc:
       '/events/karaoke.png',
     imageAlt: "Karaoke",
-    description:'Brilliant fun every time for all ages!! Hire a complete system with a flat screen monitor and microphones for your party. Huge selection of songs stored on a compact hard drive system that is effortless and easy to use. Karaoke is great as the main act or can be used to…',
+    description:'Endless fun for every age! Rent our all‐in‐one karaoke kit—featuring a vibrant flat‑screen monitor, professional microphones, and an effortless hard‑drive system stocked with thousands of hit songs. Whether you make karaoke the star attraction or a lively side attraction, it guarantees unforgettable moments. Plus, upgrade with dynamic lighting and FX to keep the party vibe soaring!',
     link: ' Link in your own DJ Mixer / media Player / Streaming device'
   },
   

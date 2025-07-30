@@ -72,6 +72,7 @@ export default function Navbar() {
             <Link href="/#" onClick={toggleMenu} className="hover:text-[black] anton-font">{'Home'}</Link>
             <Link href="/#products" onClick={toggleMenu} className="hover:text-[black] anton-font">{'Products'}</Link>
             <Link href="/#events" onClick={toggleMenu} className="hover:text-[black] anton-font">{'Events'}</Link>
+            <Link href="/gallery" onClick={toggleMenu} className="hover:text-[black] anton-font">{'Gallery'}</Link>           
             <Link href="/#contact" onClick={toggleMenu} className="hover:text-[black] anton-font">{'Contact'}</Link>
           </motion.div>
         )}
