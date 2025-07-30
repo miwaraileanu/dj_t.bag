@@ -73,7 +73,7 @@ export default function Contact() {
                 <p className="font-semibold">Email:</p>
                 <p className="mt-1">
                   <a href="mailto:info@acdl.ie" className="text-gray-600 hover:underline">
-                    tharindu.hes@gmail.com
+                    tharindu.nes@gmail.com
                   </a>
                 </p>
               </div>
@@ -177,7 +177,7 @@ export default function Contact() {
               <button
                 type="submit"
                 disabled={isSending}
-                className="w-full   px-6 py-2  border-yellow-400backdrop-blur-lg  hover:text-white backdrop-blur-lg border border-white/30 rounded-3xl z-50 shadow-lg text-black bg-[#9B177E]"
+                className="w-full   px-6 py-2  border-yellow-400backdrop-blur-lg  hover:text-black backdrop-blur-lg border border-white/30 rounded-3xl z-50 shadow-lg text-white bg-[#9B177E]"
               >
                 {isSending ? 'Sending...' : isSent ? 'Sent!' : "Let's talk"}
               </button>

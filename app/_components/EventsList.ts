@@ -2,7 +2,7 @@ export const events = [
   {
     id: 1,
     name: 'Events & Corporate',
-    href: '#',
+    href: '/#contact',
     imageSrc:
       '/events/event.png',
     imageAlt: "Events & Corporate",
