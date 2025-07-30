@@ -42,7 +42,7 @@ export default function Navbar() {
           <Image
             src="/logo.png"
             alt="Logo"
-            width={200}
+            width={150}
             height={100}
             className="ml-12"
           />
