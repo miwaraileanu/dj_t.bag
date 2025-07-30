@@ -29,7 +29,7 @@ export default function ProductsList() {
               <img
                 alt={product.imageAlt}
                 src={product.imageSrc}
-                className="w-full h-[250px] object-cover rounded-md bg-gray-200 group-hover:opacity-80 transition"
+                className="w-full h-[250px] object-fill rounded-md bg-gray-200 group-hover:opacity-80 transition"
               />
               <div className="mt-4 flex justify-between items-start">
                 <div>
