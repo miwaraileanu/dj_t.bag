@@ -9,7 +9,7 @@ export default function SmoothScroll({ children }: { children: React.ReactNode }
     const width = window.innerWidth
 
     // Set duration based on device type
-    let duration = 5 // default for desktop
+    let duration = 2 // default for desktop
 
     if (width < 640) {
       // Mobile
@@ -19,7 +19,7 @@ export default function SmoothScroll({ children }: { children: React.ReactNode }
       duration = 3
     } else {
       // Desktop
-      duration = 1.5
+      duration = 2
     }
 
     const lenis = new Lenis({
