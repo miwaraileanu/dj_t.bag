@@ -41,7 +41,7 @@ const Hero = () => {
   }, [])
 
   return (
-    <div className="relative min-h-[100vh] overflow-hidden bg-black">
+    <div className="relative min-h-screen overflow-hidden bg-black">
       {/* Mask gradient for top and bottom */}
       <div
         style={{
@@ -73,16 +73,16 @@ const Hero = () => {
           ref={textRef}
           className="absolute top-[35%] md:top-[15%] md:w-[90%] md:h-[90%] lg:w-[80%] lg:h-[80%] flex flex-col justify-center items-center text-center px-6 py-[3%]"
         >
-          <h1 className="text-[6vh] font-bold md:text-[6vh] lg:text-[13vh] text-white uppercase drop-shadow-lg">
+          <h2 className="text-[6vh] font-bold md:text-[6vh] lg:text-[13vh] text-white uppercase drop-shadow-lg">
             Sound Equipment Hire
-          </h1>
-          <h2 className="text-[3vh] md:text-[4.5vh] lg:text-[6vh] text-white uppercase font-bold drop-shadow-lg mb-6">
-            Audio / Visual Hire Specialists
           </h2>
+          <h3 className="text-[3vh] md:text-[4.5vh] lg:text-[6vh] text-white uppercase font-bold drop-shadow-lg mb-6">
+            Audio / Visual Hire Specialists
+          </h3>
           <div className="flex gap-4 flex-wrap mt-[5%] md:mt-[2%]">
             <Link href="/#products">
               <button className="text-[2vh] md:text-[3vh] px-6 py-2 rounded-3xl border backdrop-blur-lg bg-[#9B177E] hover:textblack text-white block text-center">
-                Find More
+                View Our Equipment
               </button>
             </Link>
             <Link href="/#contact">

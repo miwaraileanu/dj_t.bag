@@ -39,14 +39,14 @@ export default function Contact() {
       {/* Background gradient blob */}
       <div
         aria-hidden="true"
-        className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
+        className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
       >
         <div
           style={{
             clipPath:
               'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
           }}
-          className="relative left-1/2 -z-10 aspect-[1155/678] w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem]"
+          className="relative left-1/2 -z-10 aspect-1155/678 w-144.5 max-w-none -translate-x-1/2 rotate-30 bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-40rem)] sm:w-288.75"
         />
       </div>
 
@@ -62,7 +62,7 @@ export default function Contact() {
               methods below, or fill out the form.
             </p>
 
-            <div className="mt-10 space-y-6 text-base text-gray-600">
+            <address className="mt-10 space-y-6 text-base text-gray-600 not-italic">
               <div>
                 <p className="font-semibold">Phone:</p>
                 <p className="mt-1">
@@ -78,10 +78,10 @@ export default function Contact() {
                 <p className="font-semibold">Email:</p>
                 <p className="mt-1">
                   <a
-                    href="mailto:tharindu.nes@gmail.com"
+                    href="mailto:info@dj-tbag.ie"
                     className="text-gray-600 hover:underline"
                   >
-                    tharindu.nes@gmail.com
+                    info@dj-tbag.ie
                   </a>
                 </p>
               </div>
@@ -89,7 +89,7 @@ export default function Contact() {
                 <p className="font-semibold">Working hours:</p>
                 <p className="mt-1">24 hours / 7 days a week</p>
               </div>
-            </div>
+            </address>
           </div>
 
           {/* Right column – Contact Form */}

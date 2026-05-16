@@ -1,26 +1,35 @@
-// components/ProductsList.tsx
 import React from 'react'
 import { products } from '../_components/ProductsList'
-import Link from 'next/link'
 import GoBack from '../_components/GoBack'
 
-export default function ProductsList() {
+export const metadata = {
+  title: 'Sound Equipment Hire',
+  description:
+    'Browse our full range of PA systems, sound equipment and lighting for hire across Ireland. From compact setups to large venue rigs. Delivery available.',
+  alternates: { canonical: 'https://www.dj-tbag.ie/products' },
+}
+
+export default function ProductsPage() {
   return (
-    <div className="div">
+    <div>
       <GoBack />
-      <div className="peralta-font products w-full h-[100vh]  bg-white flex flex-col justify-between items-center my-[3%]">
-        <div className="text flex flex-col justify-between items-center w-[80%] h-auto my-[3%]">
-          <h1 className=' uppercase mb-3 text-[8vh]'>Powering Every Event</h1>
-          <p className='text-[3vh]'>From PA systems and lighting to full music setups, we provide professional sound solutions for events big and small weddings, launches, shows, conferences, and more.
-            Need great sound at the right price? Get in touch for a quick quote. Delivery available.</p>
+      <main className="peralta-font w-full min-h-screen bg-white flex flex-col items-center px-4 my-[3%]">
+        <div className="flex flex-col items-center w-full max-w-[80%] my-[3%] text-center">
+          <h1 className="uppercase mb-3 text-[8vh]">Powering Every Event</h1>
+          <p className="text-[3vh]">
+            From PA systems and lighting to full music setups, we provide professional sound
+            solutions for events big and small — weddings, launches, shows, conferences, and more.
+            Need great sound at the right price? Get in touch for a quick quote. Delivery available.
+          </p>
         </div>
-        <div className="container w-[80%] h-[80%]">
+        <div className="w-full max-w-[80%]">
           <div className="mt-6 grid grid-cols-1 gap-x-2 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-6">
             {products.map((product) => (
               <div key={product.id} className="group relative">
                 <img
                   alt={product.imageAlt}
                   src={product.imageSrc}
+                  loading="lazy"
                   className="aspect-square w-full rounded-md bg-gray-200 object-fill group-hover:opacity-75 lg:aspect-auto lg:h-90"
                 />
                 <div className="mt-4 flex justify-between">
@@ -39,7 +48,7 @@ export default function ProductsList() {
             ))}
           </div>
         </div>
-      </div>
+      </main>
     </div>
   )
 }

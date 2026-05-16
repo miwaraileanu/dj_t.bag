@@ -12,7 +12,7 @@ export const events = [
   {
     id: 2,
     name: 'Disco / DJ',
-    href: '#',
+    href: '/#contact',
     imageSrc:
       '/events/disco.png',
     imageAlt: "Disco / DJ",
@@ -21,7 +21,7 @@ export const events = [
   },{
     id: 3,
     name: 'Party Systems Hire',
-    href: '#',
+    href: '/#contact',
     imageSrc:
       '/events/rave.png',
     imageAlt: "Party Systems Hire",
@@ -30,7 +30,7 @@ export const events = [
   },{
     id: 4,
     name: 'Karaoke',
-    href: '#',
+    href: '/#contact',
     imageSrc:
       '/events/karaoke.png',
     imageAlt: "Karaoke",

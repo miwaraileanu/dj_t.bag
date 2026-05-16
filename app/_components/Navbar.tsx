@@ -41,7 +41,7 @@ export default function Navbar() {
         <div className="flex-1 flex justify-center md:ml-6">
           <Image
             src="/logo.png"
-            alt="Logo"
+            alt="DJ T-BAG – Sound Equipment & DJ Hire Ireland"
             width={150}
             height={100}
             className="ml-12"
