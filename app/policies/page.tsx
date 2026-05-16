@@ -23,7 +23,7 @@ export default function PoliciesPage() {
   const navigate = (id: string) => {
     setActive(id)
     window.history.replaceState(null, '', `/policies#${id}`)
-    window.scrollTo({ top: 0, behavior: 'smooth' })
+    window.scrollTo({ top: 0, behavior: 'auto' })
   }
 
   return (
